@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: arlo_development
+  pool: 5
+  username: arlo
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: arlo_test
+  pool: 5
+  username: arlo
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: arlo_production
+  pool: 5
+  username: arlo
+  password:
